@@ -1,0 +1,172 @@
+/* Ion.ImageSlider, Metro Skin
+// css version 1.2.70
+// by Denis Ineshin | ionden.com
+// ===================================================================================================================*/
+
+/* =====================================================================================================================
+// Slider */
+
+.ion-image-slider {
+    height: 390px;
+}
+.ion-image-slider-content {
+    width: 700px; height: 326px;
+    background: #16499a;
+}
+.ion-image-slider-preloader {
+    width: 50px; height: 50px;
+    margin: -25px 0 0 -25px;
+    background: url(../img/iis-metro-skin-preloader.gif) no-repeat 50% 50%;
+}
+
+.ion-image-slider-shadow-left,
+.ion-image-slider-shadow-right,
+.ion-image-slider-arr-prev,
+.ion-image-slider-arr-next,
+.ion-image-slider-bullet,
+.ion-image-slider-zoom {
+    background: url(../img/iis-metro-skin-sprite.png);
+}
+
+.ion-image-slider-shadow-left {
+    width: 60px;
+    background-position: 0 0;
+}
+.ion-image-slider-shadow-right {
+    width: 60px;
+    background-position: -60px 0;
+}
+
+.ion-image-slider-arr-prev {
+    left: -80px;
+    width: 60px; height: 60px;
+    margin-top: -30px;
+    background-position: -120px 0;
+}
+    .ion-image-slider-arr-prev:hover {
+        background-position: -120px -60px;
+    }
+    .ion-image-slider-arr-prev:active {
+        background-position: -120px -120px;
+    }
+
+.ion-image-slider-arr-next {
+    right: -80px;
+    width: 60px; height: 60px;
+    margin-top: -30px;
+    background-position: -180px 0;
+}
+    .ion-image-slider-arr-next:hover {
+        background-position: -180px -60px;
+    }
+    .ion-image-slider-arr-next:active {
+        background-position: -180px -120px;
+    }
+
+.ion-image-slider-bullets {
+    top: 342px;
+}
+    .ion-image-slider-bullet {
+        width: 22px; height: 22px;
+        background-position: -346px 0;
+    }
+    .ion-image-slider-bullet.active {
+        background-position: -368px 0;
+    }
+
+.ion-image-slider-scroll {
+    top: 15px;
+    height: 300px;
+}
+
+.ion-image-slider-pad {
+    color: #fff;
+}
+    .ion-image-slider-pad a {
+        background: #328ff5;
+        margin: 5px 20px 20px 0;
+        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .ion-image-slider img {
+        top: 11px; left: 11px;
+    }
+
+.ion-image-slider-zoom {
+    top: 50%; left: 50%;
+    width: 106px; height: 106px;
+    margin: -53px 0 0 -53px;
+    background-position: -240px 0;
+    filter: alpha(opacity=0);
+}
+html:root .ion-image-slider-zoom {
+    opacity: 0.0;
+    filter: none;
+}
+
+.ion-image-slider-zoom-text {
+    top: 50%;
+    margin-top: 33px;
+    color: #fff;
+    font: 11px/12px Arial, Helvetica, sans-serif;
+    filter: alpha(opacity=0);
+}
+html:root .ion-image-slider-zoom-text {
+    opacity: 0.0;
+    filter: none;
+}
+
+.ion-image-slider-caption {
+    bottom: -100px; right: 11px;
+    width: 100%;
+    padding: 15px 11px 5px;
+    background: #328ff5;
+    color: #fff;
+    font: 11px/12px Arial, Helvetica, sans-serif;
+}
+
+.ion-image-slider a.active:hover .ion-image-slider-zoom,
+.ion-image-slider a.active:hover .ion-image-slider-zoom-text {
+    filter: alpha(opacity=100);
+}
+html:root .ion-image-slider a.active:hover .ion-image-slider-zoom,
+html:root .ion-image-slider a.active:hover .ion-image-slider-zoom-text {
+    opacity: 1.0;
+    filter: none;
+}
+.ion-image-slider a.active:hover .ion-image-slider-caption {
+    bottom: 11px;
+}
+
+.ion-image-slider-zoom,
+.ion-image-slider-zoom-text,
+.ion-image-slider-caption {
+    -webkit-transition: all 300ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    -moz-transition: all 300ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    -ms-transition: all 300ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    -o-transition: all 300ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    transition: all 300ms cubic-bezier(0.230, 1.000, 0.320, 1.000); /* easeOutQuint */
+
+    -webkit-transition-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    -moz-transition-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    -ms-transition-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    -o-transition-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    transition-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000); /* easeOutQuint */
+}
+
+
+/* =====================================================================================================================
+// Popup */
+
+.ion-image-slider-overlay {
+    background: #222 url(../img/iis-metro-skin-preloader.gif) no-repeat 50% 50%;
+}
+html:root .ion-image-slider-overlay {
+    background: rgba(36,39,42,0.9) url(../img/iis-metro-skin-preloader.gif) no-repeat 50% 50%;
+}
+.ion-image-slider-popup {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.ion-image-slider-popup-caption {
+    font: 11px/12px Arial, Helvetica, sans-serif;
+    color: #fff;
+}

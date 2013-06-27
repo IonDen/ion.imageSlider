@@ -1,0 +1,230 @@
+/* Ion.ImageSlider
+// css version 1.2.70
+// by Denis Ineshin | ionden.com
+// ===================================================================================================================*/
+
+/* =====================================================================================================================
+// Slider */
+
+.ion-image-slider {
+    position: relative;
+    overflow: hidden;
+}
+    .ion-image-slider > a {
+        position: absolute; display: block;
+        top: -999px; left: -999px;
+    }
+
+.ion-image-slider-content {
+    position: relative;
+    margin: 0 auto;
+}
+.ion-image-slider-preloader {
+    position: absolute;
+    top: 50%; left: 50%;
+}
+
+.ion-image-slider-shadow-left {
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    background-repeat: repeat-y;
+}
+.ion-image-slider-shadow-right {
+    position: absolute;
+    top: 0; right: 0;
+    height: 100%;
+    background-repeat: repeat-y;
+}
+
+.ion-image-slider-arr-prev {
+    position: absolute;
+    top: 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.ion-image-slider-arr-next {
+    position: absolute;
+    top: 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.ion-image-slider-bullets {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    cursor: default;
+}
+    .ion-image-slider-bullet {
+        position: relative; display: inline-block;
+        vertical-align: top;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+.ion-image-slider-scroll {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ion-image-slider-pad {
+    position: absolute;
+    top: 0; left: 0;
+}
+    .ion-image-slider-pad a {
+        position: relative;
+        display: block; float: left;
+        text-decoration: none;
+        outline: none;
+        overflow: hidden;
+    }
+    .ion-image-slider img {
+        position: absolute; display: block;
+    }
+
+.ion-image-slider-zoom {
+    position: absolute; display: block;
+    background-repeat: no-repeat;
+}
+.ion-image-slider-zoom-text {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.ion-image-slider-caption {
+    position: absolute; display: block;
+}
+
+
+/* =====================================================================================================================
+// Popup */
+
+.ion-image-slider-overlay {
+    position: fixed; display: none;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    cursor: pointer;
+    z-index: 3998;
+}
+.ion-image-slider-popup {
+    position: fixed; display: none;
+    top: 50%; left: 50%;
+    width: 200px; height: 200px;
+    margin: -100px 0 0 -100px;
+    background: #fff;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 3999;
+}
+.ion-image-slider-popup.opend {
+    display: block;
+}
+.ion-image-slider-big {
+    position: absolute; display: block;
+    top: -9999px; left: -9999px;
+}
+.ion-image-slider-popup .ion-image-slider-big {
+    position: relative;
+    top: auto; left: auto;
+    width: 100%; height: 100%;
+}
+
+.ion-image-slider-popup-close,
+.ion-image-slider-popup-prev,
+.ion-image-slider-popup-next,
+.ion-image-slider-popup-caption {
+    position: absolute;
+    background: #222;
+
+    -webkit-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    -moz-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    -ms-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    -o-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); /* ease-in-out */
+
+    -webkit-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    -moz-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    -ms-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    -o-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); /* ease-in-out */
+}
+html:root .ion-image-slider-popup-close,
+html:root .ion-image-slider-popup-prev,
+html:root .ion-image-slider-popup-next,
+html:root .ion-image-slider-popup-caption {
+    background: rgba(0,0,0,0.7);
+}
+
+    .ion-image-slider-popup-close {
+        top: -30px; right: -30px;
+        width: 30px; height: 30px;
+        border-radius: 0 0 0 5px;
+        z-index: 2;
+        font: 22px/30px Arial, Helvetica, sans-serif;
+        color: #fff; text-shadow: none;
+        text-align: center;
+    }
+    .ion-image-slider-popup-prev {
+        top: 50%; left: -30px; margin-top: -25px;
+        width: 30px; height: 50px;
+        border-radius: 0 5px 5px 0;
+        z-index: 2;
+    }
+        .ion-image-slider-popup-prev div {
+            position: absolute;
+            top: 15px; left: -3px;
+            width: 0; height: 0;
+            overflow: hidden;
+            border: 10px solid transparent;
+            border-right-color: #fff;
+        }
+        .ion-image-slider-popup-prev:after {
+            position: absolute; display: block; content: "";
+            top: -35px; left: 0;
+            width: 90px; height: 120px;
+            background: rgba(255,255,255,0.0);
+        }
+    .ion-image-slider-popup-next {
+        top: 50%; right: -30px; margin-top: -25px;
+        width: 30px; height: 50px;
+        border-radius: 5px 0 0 5px;
+        z-index: 2;
+    }
+        .ion-image-slider-popup-next div {
+            position: absolute;
+            top: 15px; left: 13px;
+            width: 0; height: 0;
+            overflow: hidden;
+            border: 10px solid transparent;
+            border-left-color: #fff;
+        }
+        .ion-image-slider-popup-next:after {
+            position: absolute; display: block; content: "";
+            top: -35px; right: 0;
+            width: 90px; height: 120px;
+            background: rgba(255,255,255,0.0);
+        }
+    .ion-image-slider-popup-caption {
+        right: 0; bottom: 0;
+        padding: 6px 13px;
+        border-radius: 5px 0 0 0;
+    }
+
+.ion-image-slider-popup.opend .ion-image-slider-popup-close {
+    top: 0; right: 0;
+}
+.ion-image-slider-popup.opend .ion-image-slider-popup-prev {
+    left: 0;
+}
+.ion-image-slider-popup.opend .ion-image-slider-popup-next {
+    right: 0;
+}
+.ion-image-slider-popup.opend .ion-image-slider-popup-caption {
+    bottom: 0;
+}

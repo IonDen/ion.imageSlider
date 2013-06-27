@@ -1,0 +1,31 @@
+﻿{
+    "name": "ion-imageSlider",
+    "version": "1.2.70",
+    "title": "Ion Image Slider",
+    "description": "Nice and powerful image slider and lightbox at once. With skins support",
+    "keywords": [
+        "image",
+        "picture",
+        "slider",
+        "interface",
+        "skins",
+        "ui"
+    ],
+    "author": {
+        "name": "IonDen",
+        "url": "https://github.com/IonDen"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://ionden.com/a/plugins/licence-en.html"
+        }
+    ],
+    "homepage": "https://github.com/IonDen/ion.imageSlider",
+    "docs": "https://github.com/IonDen/ion.imageSlider/blob/master/readme.md",
+    "demo": "http://ionden.com/a/plugins/ion.imageSlider/en.html",
+    "download": "http://ionden.com/a/plugins/ion.imageSlider/ion.imageSlider-1.2.zip",
+    "dependencies": {
+        "jquery": ">=1.9"
+    }
+}

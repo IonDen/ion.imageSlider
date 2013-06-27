@@ -1,0 +1,174 @@
+/* Ion.ImageSlider, Sexy Skin
+// css version 1.2.70
+// by Denis Ineshin | ionden.com
+// ===================================================================================================================*/
+
+/* =====================================================================================================================
+// Slider */
+
+.ion-image-slider {
+    height: 390px;
+}
+.ion-image-slider-content {
+    width: 700px; height: 326px;
+    background: #323941;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 0 rgba(0,0,0,0.7), 0 1px 0 rgba(255,255,255,0.3);
+}
+.ion-image-slider-preloader {
+    width: 50px; height: 50px;
+    margin: -25px 0 0 -25px;
+    background: url(../img/iis-sexy-skin-preloader.gif) no-repeat 50% 50%;
+}
+
+.ion-image-slider-shadow-left,
+.ion-image-slider-shadow-right,
+.ion-image-slider-arr-prev,
+.ion-image-slider-arr-next,
+.ion-image-slider-bullet,
+.ion-image-slider-zoom {
+    background: url(../img/iis-sexy-skin-sprite.png);
+}
+
+.ion-image-slider-shadow-left {
+    width: 60px;
+    background-position: 0 0;
+    border-radius: 10px 0 0 10px;
+}
+.ion-image-slider-shadow-right {
+    width: 60px;
+    background-position: -60px 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.ion-image-slider-arr-prev {
+    left: -80px;
+    width: 60px; height: 60px;
+    margin-top: -30px;
+    background-position: -120px 0;
+}
+    .ion-image-slider-arr-prev:hover {
+        background-position: -120px -60px;
+    }
+    .ion-image-slider-arr-prev:active {
+        background-position: -120px -120px;
+    }
+
+.ion-image-slider-arr-next {
+    right: -80px;
+    width: 60px; height: 60px;
+    margin-top: -30px;
+    background-position: -180px 0;
+}
+    .ion-image-slider-arr-next:hover {
+        background-position: -180px -60px;
+    }
+    .ion-image-slider-arr-next:active {
+        background-position: -180px -120px;
+    }
+
+.ion-image-slider-bullets {
+    top: 342px;
+}
+.ion-image-slider-bullet {
+    width: 22px; height: 22px;
+    background-position: -346px 0;
+}
+    .ion-image-slider-bullet.active {
+        background-position: -368px 0;
+    }
+
+.ion-image-slider-scroll {
+    top: 15px;
+    height: 300px;
+}
+
+.ion-image-slider-pad {
+    color: #fff;
+}
+    .ion-image-slider-pad a {
+        background: #fff;
+        margin: 5px 20px 20px 0;
+        border-radius: 2px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.9);
+    }
+    .ion-image-slider img {
+        top: 10px; left: 10px;
+        border: 1px solid #323941;
+        border-radius: 2px;
+    }
+    html:root .ion-image-slider img {
+        border: 1px solid rgba(0,0,0,0.5);
+    }
+
+.ion-image-slider-zoom {
+    top: -50%; left: 50%;
+    width: 106px; height: 106px;
+    margin: -53px 0 0 -53px;
+    background-position: -240px 0;
+}
+.ion-image-slider-zoom-text {
+    top: -50%;
+    margin-top: 55px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font: 10px/11px Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.7);
+}
+.ion-image-slider-caption {
+    bottom: -100px; right: 11px;
+    padding: 5px;
+    border-radius: 2px 0 2px 0;
+    color: #fff;
+    background: #323941;
+    text-transform: uppercase;
+    font-weight: bold;
+    font: 10px/11px Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.7);
+}
+html:root .ion-image-slider-caption {
+    background: rgba(0,0,0,0.5);
+}
+
+.ion-image-slider a.active:hover .ion-image-slider-zoom,
+.ion-image-slider a.active:hover .ion-image-slider-zoom-text {
+    top: 50%;
+}
+.ion-image-slider a.active:hover .ion-image-slider-caption {
+    bottom: 11px;
+}
+
+.ion-image-slider-zoom,
+.ion-image-slider-zoom-text,
+.ion-image-slider-caption {
+    -webkit-transition: all 300ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    -moz-transition: all 300ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    -ms-transition: all 300ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    -o-transition: all 300ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    transition: all 300ms cubic-bezier(0.230, 1.000, 0.320, 1.000); /* easeOutQuint */
+
+    -webkit-transition-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    -moz-transition-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    -ms-transition-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    -o-transition-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    transition-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000); /* easeOutQuint */
+}
+
+
+/* =====================================================================================================================
+// Popup */
+
+.ion-image-slider-overlay {
+    background: #222 url(../img/iis-sexy-skin-preloader.gif) no-repeat 50% 50%;
+}
+html:root .ion-image-slider-overlay {
+    background: rgba(36,39,42,0.9) url(../img/iis-sexy-skin-preloader.gif) no-repeat 50% 50%;
+}
+.ion-image-slider-popup {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.ion-image-slider-popup-caption {
+    font: 11px/12px Arial, Helvetica, sans-serif;
+    color: #fff;
+}
