@@ -1,12 +1,16 @@
-# Ion.Image Slider 1.2
+![ion.imageSlider](_tmp/logo-ion-image-slider.png)
 
 > <a href="readme.md">English description</a> | Описание на русском
 
-jQuery слайдер изображений и лайтбокс с поддержкой скинов <a href="http://ionden.com/a/plugins/ion.imageSlider/">Страница проекта и демо</a>
-
-Скачать: <a href="http://ionden.com/a/plugins/ion.imageSlider/ion.imageSlider-1.6.zip">ion.imageSlider-1.6.zip</a>
+jQuery слайдер изображений и лайтбокс с поддержкой скинов.
 
 ***
+
+* Версия: 1.2.0
+* <a href="http://ionden.com/a/plugins/ion.imageSlider/">Страница проекта и демо</a>
+* <a href="http://ionden.com/a/plugins/ion.imageSlider/ion.imageSlider-1.2.zip">Скачать ZIP-архив</a>
+
+[![](https://pledgie.com/campaigns/25694.png?skin_name=chrome)](https://pledgie.com/campaigns/25694)
 
 ## Описание
 * Ion.ImageSlider — отличный и удобный слайдер картинок и лайтбокс в одном.
@@ -95,5 +99,11 @@ $("#mySlider").ionImageSlider({
     </tbody>
 </table>
 
-## История обновлений
-* 26.06.2013 - релиз слайдера
+
+### <a href="history.md">История обновлений</a>
+
+***
+
+Поддержите плагин:
+
+[![](https://pledgie.com/campaigns/25694.png?skin_name=chrome)](https://pledgie.com/campaigns/25694)

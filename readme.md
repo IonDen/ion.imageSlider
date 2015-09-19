@@ -1,12 +1,16 @@
-# Ion.Image Slider 1.2
+![ion.imageSlider](_tmp/logo-ion-image-slider.png)
 
 > English description | <a href="readme.ru.md">Описание на русском</a>
 
-jQuery image slider with lightbox and skin support <a href="http://ionden.com/a/plugins/ion.imageSlider/en.html">Project page and demos</a>
-
-Download: <a href="http://ionden.com/a/plugins/ion.imageSlider/ion.imageSlider-1.2.zip">ion.imageSlider-1.2.zip</a>
+jQuery image slider with lightbox and skin support.
 
 ***
+
+* Version: 1.2.0
+* <a href="http://ionden.com/a/plugins/ion.imageSlider/en.html">Project page and demos</a>
+* <a href="http://ionden.com/a/plugins/ion.imageSlider/ion.imageSlider-1.2.zip">Download ZIP</a>
+
+[![](https://pledgie.com/campaigns/25694.png?skin_name=chrome)](https://pledgie.com/campaigns/25694)
 
 ## Description
 * Ion.ImageSlider — nice and powerful image slider and lightbox at once.
@@ -98,5 +102,11 @@ $("#mySlider").ionImageSlider({
     </tbody>
 </table>
 
-## Update history
-* June 26, 2013 - slider release
+
+### <a href="history.md">Update history</a>
+
+***
+
+Support the plugin:
+
+[![](https://pledgie.com/campaigns/25694.png?skin_name=chrome)](https://pledgie.com/campaigns/25694)
