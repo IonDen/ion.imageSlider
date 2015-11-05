@@ -10,8 +10,6 @@ jQuery image slider with lightbox and skin support.
 * <a href="http://ionden.com/a/plugins/ion.imageSlider/en.html">Project page and demos</a>
 * <a href="http://ionden.com/a/plugins/ion.imageSlider/ion.imageSlider-1.2.zip">Download ZIP</a>
 
-[![](https://pledgie.com/campaigns/25694.png?skin_name=chrome)](https://pledgie.com/campaigns/25694)
-
 ## Description
 * Ion.ImageSlider — nice and powerful image slider and lightbox at once.
 * Lightbox supports keyboard controls with ESC, LEFT and RIGHT button.
@@ -107,6 +105,10 @@ $("#mySlider").ionImageSlider({
 
 ***
 
-Support the plugin:
+#### Support Ion-series plugins development:
 
-[![](https://pledgie.com/campaigns/25694.png?skin_name=chrome)](https://pledgie.com/campaigns/25694)
+* Donate through Pledgie service: [![](https://pledgie.com/campaigns/25694.png?skin_name=chrome)](https://pledgie.com/campaigns/25694)
+
+* Donate direct to my Paypal account: https://www.paypal.me/IonDen
+
+* Donate direct to my Yandex.Money account: http://yasobe.ru/na/razrabotku
