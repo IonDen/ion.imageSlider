@@ -10,8 +10,6 @@ jQuery слайдер изображений и лайтбокс с поддер
 * <a href="http://ionden.com/a/plugins/ion.imageSlider/">Страница проекта и демо</a>
 * <a href="http://ionden.com/a/plugins/ion.imageSlider/ion.imageSlider-1.2.zip">Скачать ZIP-архив</a>
 
-[![](https://pledgie.com/campaigns/25694.png?skin_name=chrome)](https://pledgie.com/campaigns/25694)
-
 ## Описание
 * Ion.ImageSlider — отличный и удобный слайдер картинок и лайтбокс в одном.
 * Лайтбокс поддерживает управление с клавиатуры с помощью клавиш ESC, LEFT и RIGHT.
@@ -104,6 +102,10 @@ $("#mySlider").ionImageSlider({
 
 ***
 
-Поддержите плагин:
+#### Поддержите разработку плагинов серии Ion:
 
-[![](https://pledgie.com/campaigns/25694.png?skin_name=chrome)](https://pledgie.com/campaigns/25694)
+* Пожертвовать через сервис Pledgie: [![](https://pledgie.com/campaigns/25694.png?skin_name=chrome)](https://pledgie.com/campaigns/25694)
+
+* Пожертвовать напрямую через Paypal: https://www.paypal.me/IonDen
+
+* Пожертвовать напрямую через Яндекс.Деньги: http://yasobe.ru/na/razrabotku
